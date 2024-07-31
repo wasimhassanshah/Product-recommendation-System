@@ -30,7 +30,7 @@ Write a function to get 'n' top products with specified minimum number of intera
 
 2) Similarity based Collaborative filtering
 
-# Objective -
+ Objective -
 
 Provide personalized and relevant recommendations to users.
 Outputs -
@@ -48,7 +48,10 @@ Call the previous similar users function to get the similar users for the desire
 Find prod_ids with which the original user has interacted -> observed_interactions
 For each similar user Find 'n' products with which the similar user has interacted with but not the actual user.
 return the specified number of products.
+
+
 3) Model based Collaborative filtering
+
 Objective -
 
 Provide personalized recommendations to users based on their past behavior and preferences, while also addressing the challenges of sparsity and scalability that can arise in other collaborative filtering techniques.
